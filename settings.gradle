@@ -14,5 +14,10 @@ dependencyResolutionManagement {
         maven { url "https://jitpack.io" }
     }
 }
+ext {
+    appCompatVersion = '1.4.0'
+    designSupportVersion = '1.4.0'
+    //recyclerViewVersion = '1.4.0'
+}
 rootProject.name = "InstagramClone"
 include ':app'
